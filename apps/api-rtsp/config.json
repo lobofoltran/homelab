@@ -1,0 +1,13 @@
+{
+  "server_port": 8080,
+  "cameras": [
+    {
+      "name": "Sacada",
+      "url": "rtsp://ajcc:ad4chp@192.168.1.101:554/onvif1"
+    },
+        {
+      "name": "Frente Loja",
+      "url": "rtsp://scxh:ya3acp@192.168.1.103:554/onvif1"
+    }
+  ]
+}
