@@ -1,0 +1,10 @@
+go 1.23.10
+
+use (
+	./apps/agentd
+	./apps/api-rtsp
+	./apps/daemon
+	./experiments/webrtc
+	./experiments/websockets
+	./libs/logger
+)
