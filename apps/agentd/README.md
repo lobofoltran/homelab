@@ -9,7 +9,7 @@ The project aims to solve data pipeline issues in environments with VPNs — tha
 - Executes **periodic jobs** based on a local JSON configuration
 - Each job runs with its own interval
 - Collects and stores local data
-- Cross-platform (Linux, MacOS and Windows)
+- Cross-platform distribuition as a service (Linux, MacOS and Windows)
 
 ## Project Structure
 
