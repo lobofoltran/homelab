@@ -4,16 +4,12 @@
 
 The project aims to solve data pipeline issues in environments with VPNs — that's why it is pull-based, allowing for extension and the creation of data pipelines.
 
----
-
 ## Features
 
 - Executes **periodic jobs** based on a local JSON configuration
 - Each job runs with its own interval
 - Collects and stores local data
 - Cross-platform (Linux, MacOS and Windows)
-
----
 
 ## Project Structure
 
@@ -30,8 +26,6 @@ agentd/
 └── README.md
 ```
 
----
-
 ## Available Jobs
 
 - `check_system.go` – CPU, memory, disk, uptime
@@ -46,8 +40,6 @@ agentd/
 - `check_suspicious.go` – Suspicious activity detection
 - `check_updates.go` – Update checker (integration with tower)
 
----
-
 ## Roadmap
 
 - [ ] Pull-based integration with **tower** project
@@ -57,8 +49,6 @@ agentd/
 - [ ] Plugin support: external binary job execution
 - [ ] Stealth mode for isolated deployments
 
----
-
-## 🧠 Note
+## Note
 
 This project is part of the [lobofoltran/homelab](https://github.com/lobofoltran/homelab), an ecosystem of tools in Go to study networking, distributed systems, and infrastructure automation in real environments.
