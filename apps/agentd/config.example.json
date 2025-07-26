@@ -1,0 +1,34 @@
+{
+    "appId": "local",
+    "production": false,
+    "jobs": [
+        {
+            "job": "check_devices",
+            "interval": 5
+        },
+        {
+            "job": "check_system",
+            "interval": 5
+        },
+        {
+            "job": "check_processes",
+            "interval": 5
+        },
+        {
+            "job": "check_users",
+            "interval": 5
+        },
+        {
+            "job": "check_network",
+            "interval": 5
+        },
+        {
+            "job": "check_hostinfo",
+            "interval": 60
+        }
+    ],
+    "central": {
+        "url": "https://host.tower.internal/api/devices",
+        "token": "app-token"
+    }
+}
